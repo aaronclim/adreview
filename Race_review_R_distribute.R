@@ -6,8 +6,8 @@ install.packages("ggpubr")
 library(ggpubr)
 install.packages("gridExtra")
 library(gridExtra)
-han<-read_sav('C:/Users/aaron/Documents/USC/data/Race_Review_data2.sav')
-bhan <- read_sav('C:/Users/aaron/Documents/USC/data/BigStudy_racereview.sav')
+han<-read_sav('path/Race_review_dist.sav')
+bhan <- read_sav('path/Indirect_studies_dist.sav')
 library(ggplot2)
 
 '''note. [Race] is 0-100%. [Race2] is 0-1.0.'''
